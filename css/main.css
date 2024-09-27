@@ -151,3 +151,70 @@ header {
 .open .navbar__icon:after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
+/* ===banner=== */
+#banner {
+  position: relative;
+  height: 100vh;
+}
+.banner__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.banner__heading {
+  max-width: 300px;
+  margin: 0 auto;
+  text align: left;
+  color: var(--gray);
+
+}
+.banner__heading h1{
+  font-size: 2.25rem;
+  padding-top: 4em;
+  margin-bottom: 0.8em;
+
+}
+.banner__heading p{
+  font-weight: 300;
+  line-height: 2em;
+  margin-bottom: 1.5em;
+
+}
+.banner__btn {
+  font-size: 1rem;
+}
+
+.banner__socials {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.banner__socials a {
+  color: var(--gray);
+  transition: var(--smooth);
+}
+
+.banner__socials a:hover {
+
+  color: var(--green-l);
+  transition: var(--smooth);
+}
+@media (min-width: 62em) {
+  .banner__heading {
+    text-align: initial;
+    margin: 0;
+    padding-top: 0;
+  }
+  .banner__socials {
+    justify-content: flex-start;
+  }
+  .banner__socials a {
+    margin-right: 45px;
+  }
+  .banner__img {
+    width: 60%;
+  }
+}

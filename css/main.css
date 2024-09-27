@@ -151,7 +151,7 @@ header {
 .open .navbar__icon:after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
-/* ===banner=== */
+/* =====banner===== */
 #banner {
   position: relative;
   height: 100vh;

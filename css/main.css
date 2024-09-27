@@ -76,7 +76,7 @@ header {
   transition: var(--smooth);
   transform: translateX(
     -100%
-  ); /*làm cho trang menu bị chuyển 100% kích thước sang trái ngoài màn hình */
+  ); /*làm cho trang menu chuyển 100% kích thước sang trái ngoài màn hình */
   opacity: 0;
 }
 .navbar__links.navbar__open {

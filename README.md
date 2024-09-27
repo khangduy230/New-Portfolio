@@ -1,4 +1,4 @@
 Portfolio's KD
 
-Một dự án tự học cá nhân - personal self-study project
+Một dự án tự học cá nhân - personal self-study project.
 I practice using responsive web design
